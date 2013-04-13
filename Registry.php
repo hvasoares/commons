@@ -20,7 +20,7 @@ class Registry implements \ArrayAccess{
 			return $this->returnVal($key);
 		elseif($this->parent)
 			return $this->parent->offsetGet($key);
-		throw new Exception('Doesnt exists key '.$key);
+		throw new \Exception('Doesnt exists key '.$key);
 	}
 
 	public function offsetSet($key,$val){
