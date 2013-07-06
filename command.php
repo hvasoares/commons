@@ -1,5 +1,5 @@
 <?php
-namespace switch5\commom\Command;
+namespace hvasoares\commom\Command;
 interface Command{
 	function setRegistry($value);
 	function doCommand();

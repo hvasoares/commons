@@ -1,3 +1,14 @@
 {
-	"name":"hvasoares/commons"
+    "name": "hvasoares/commom",
+    "license": "oss",
+    "authors": [
+        {
+            "name": "Hugo Vinícius Alves Soares",
+            "email": "hvasoares@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
 }
