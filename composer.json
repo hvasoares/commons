@@ -1,6 +1,7 @@
 {
     "name": "hvasoares/commom",
     "license": "oss",
+    "description" : "my commons classes used in so many projects",
     "version" : "1.0.0",
     "authors": [
         {
