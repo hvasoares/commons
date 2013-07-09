@@ -1,5 +1,5 @@
 <?php
-namespace switch5\commom;
+namespace hvasoares\commom;
 require_once 'Registry.php';
 class RegistryTest  extends \PHPUnit_Framework_Testcase{
 	public function testShouldSetASingleObject(){

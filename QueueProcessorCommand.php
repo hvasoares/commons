@@ -1,5 +1,5 @@
 <?php
-namespace hvasoares\commom\Command;
+namespace hvasoares\commons\Command;
 
 require_once 'command.php';
 class QueueProcessorCommand implements Command{

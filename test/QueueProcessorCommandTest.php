@@ -1,6 +1,6 @@
 <?php
 require_once 'QueueProcessorCommand.php';
-use hvasoares\commom\Command;
+use hvasoares\commons\Command;
 use \Mockery as m;
 
 class QueueProcessorcommandTest extends PHPUnit_Framework_Testcase{
