@@ -1,5 +1,5 @@
 <?php
-namespace hvasoares\commom;
+namespace hvasoares\commons;
 class Registry implements \ArrayAccess{
 	public function __construct($parent=null){
 		$this->db = array();

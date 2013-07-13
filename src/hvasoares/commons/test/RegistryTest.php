@@ -1,5 +1,5 @@
 <?php
-namespace hvasoares\commom;
+namespace hvasoares\commons;
 require_once 'Registry.php';
 class RegistryTest  extends \PHPUnit_Framework_Testcase{
 	public function testShouldSetASingleObject(){
