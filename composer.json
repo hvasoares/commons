@@ -1,6 +1,7 @@
 {
     "name": "hvasoares/commons",
     "license": "mpl",
+    "type": "library",
     "description" : "my commons classes used in so many projects",
     "version" : "1.0.4",
     "authors": [
