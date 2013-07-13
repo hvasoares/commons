@@ -1,6 +1,6 @@
 {
     "name": "hvasoares/commons",
-    "license": "oss",
+    "license": "mpl",
     "description" : "my commons classes used in so many projects",
     "version" : "1.0.4",
     "authors": [
@@ -12,5 +12,8 @@
     "minimum-stability": "dev",
     "require": {
 
+    },
+    "autoload":{
+    	"psr-0":{"hvasoares//commom" : "src/hvasoares/commom"}
     }
 }
