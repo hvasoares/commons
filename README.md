@@ -33,13 +33,13 @@ $obj == $top['someObject']; //will return true
 
 $child = new \hvasoares\commons\Registry($top);
 
-$child['someObject'] == $top['someObject]; //will return true
+$child['someObject'] == $top['someObject']; //will return true
 
 $newObj = new stdClass;
 
-$child['someObject] = $newObj;
+$child['someObject'] = $newObj;
 
-$child['someObject] == $top['someObject']; //will return false
+$child['someObject'] == $top['someObject']; //will return false
 
 $child['someObject] == $newObj; //will return true
 ```
